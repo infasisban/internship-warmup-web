@@ -1,28 +1,23 @@
-/* General Body Styling */
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
     color: #333;
 }
 
-/* Navbar */
 .navbar {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Brand Name */
 .navbar-brand {
     font-size: 1.5rem;
     letter-spacing: 1px;
 }
 
-/* Carousel Images */
 .carousel-item img {
     height: 500px;
     object-fit: cover;
 }
 
-/* About Us Section */
 #about {
     background: linear-gradient(135deg, #e8f0ff, #ffffff);
     padding: 60px 0;
@@ -41,7 +36,6 @@ body {
     transform: scale(1.2);
 }
 
-/* Contact Form */
 form .form-control {
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -53,7 +47,6 @@ form .form-control:focus {
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
 }
 
-/* Buttons */
 .btn-primary {
     background-color: #007bff;
     border: none;
@@ -67,13 +60,11 @@ form .form-control:focus {
     background-color: #0056b3;
 }
 
-/* Footer */
 footer {
     font-size: 0.9rem;
     letter-spacing: 0.5px;
 }
 
-/* Fade-In Animation */
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
